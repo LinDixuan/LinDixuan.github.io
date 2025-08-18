@@ -23,4 +23,4 @@ announcements:
 
 ---
 
-Write your biography here. 
+Looking for a PhD position.
