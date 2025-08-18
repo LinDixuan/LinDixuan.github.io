@@ -1,22 +1,18 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: OpenGL Shader Implementation
+description: 
+img: assets/img/proj_5600_shader_preview.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: true 
 ---
 
+Developed an OpenGL shader practice project featuring Blinn-Phong reflection, Matcap reflection, custom vertex deformation, and post-processing effects.
 
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    <video class="w-100 rounded shadow" controls playsinline>
-      <source src="assets/video/proj_5600_shader.mp4" type="video/mp4">
-    </video>
-  </div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/proj_5600_shader.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
 </div>
-```
 
