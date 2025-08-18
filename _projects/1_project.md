@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pick and place blocks with robot arm
-description: with background image
+description: 
 img: assets/img/proj_5200/proj_5200.GIF
 importance: 1
 category: work
@@ -36,6 +36,5 @@ The proposed method is composed of two main stages: **Grabbing** and **Stacking*
         {% include video.liquid path="assets/video/proj_5200.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-
 
 

@@ -2,7 +2,7 @@
 layout: page
 title: OpenGL Shader Implementation
 description: 
-img: assets/img/proj_5600_shader_preview.png
+img: assets/img/proj5600/proj_5600_shader_preview.png
 importance: 2
 category: work
 giscus_comments: true 
@@ -15,4 +15,3 @@ Developed an OpenGL shader practice project featuring Blinn-Phong reflection, Ma
         {% include video.liquid path="assets/video/proj_5600_shader.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-
