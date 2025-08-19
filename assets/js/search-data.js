@@ -56,7 +56,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/code/";
+            window.location.href = "/blog/2015/code_draft/";
           
         },
       },{id: "projects-pick-and-place-blocks-with-robot-arm",
