@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
+        },{id: "post-diffh2o",
         
-          title: "",
+          title: "DiffH2o",
         
-        description: "",
+        description: "an overview of DiffH2o",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-08-18-diffh2o/";
+            window.location.href = "/blog/2025/diffh2o/";
           
         },
       },{id: "post-a-post-with-code",
