@@ -20,4 +20,4 @@ announcements:
 
 ---
 
-Looking for a PhD position.
+I am looking for a PhD position.
