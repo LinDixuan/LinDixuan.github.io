@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/2025-08-18-diffh2o/";
           
         },
+      },{id: "post-a-post-with-code",
+        
+          title: "a post with code",
+        
+        description: "an example of a blog post with some code",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/code/";
+          
+        },
       },{id: "projects-pick-and-place-blocks-with-robot-arm",
           title: 'Pick and place blocks with robot arm',
           description: "",
