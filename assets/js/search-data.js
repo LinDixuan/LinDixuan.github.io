@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
@@ -56,17 +63,17 @@ ninja.data = [{
           title: 'Pick and place blocks with robot arm',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
+              window.location.href = "/projects/1_project/";
             },},{id: "projects-opengl-shader-implementation",
           title: 'OpenGL Shader Implementation',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-mini-minecraft",
           title: 'Mini Minecraft',
           description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
