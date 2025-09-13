@@ -4,7 +4,7 @@ title: Pick and place blocks with robot arm
 description: 
 img: assets/img/proj_5200/proj_5200.GIF
 importance: 1
-category: work
+category: fun
 related_publications: true
 ---
 
