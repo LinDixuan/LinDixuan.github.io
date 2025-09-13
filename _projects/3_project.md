@@ -61,7 +61,7 @@ In order to collide with terrain, we assume that the `Player`'s collision volume
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/proj5600/player_bounds.png" title="player bounds" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/proj5600/player_bounds.png" title="player bounds" class="img-fluid rounded z-depth-1 w-40" %}
     </div>
 </div>
 <div class="caption">
