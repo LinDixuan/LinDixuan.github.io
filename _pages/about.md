@@ -14,4 +14,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a second-year master’s student in Robotics at the University of Pennsylvania, advised by [Prof. Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/). My research interests include visual perception of the physical world, human motion reconstruction and generation. Previously, I received my bachelor’s degree from Sun Yat-sen University, advised by [Prof. Wei-Shi Zheng](https://www.isee-ai.cn/~zhwshi/), and spent a year as a visiting student at Tsinghua University working with [Prof. Yebin Liu](https://www.liuyebin.com/).
+
+
+I am currently a research assistant at Stanford, where I am supervised by [Prof. C. Karen Liu](https://tml.stanford.edu/). My research interests lie in visual perception of the physical world, as well as human motion reconstruction and generation. Previously, I received my master’s degree in Robotics from the University of Pennsylvania, where I was fortunate to work with [Prof. Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/) and [Prof. Lingjie Liu](https://lingjie0206.github.io/). I earned my bachelor’s degree from Sun Yat-sen University under the supervision of [Prof. Wei-Shi Zheng](https://www.isee-ai.cn/~zhwshi/), and also spent a year as a visiting student at Tsinghua University, where I worked with [Prof. Yebin Liu](https://www.liuyebin.com/).
