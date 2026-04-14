@@ -766,6 +766,11 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
 
+      .periodical {
+        color: var(--global-text-color);
+        font-weight: 700;
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
