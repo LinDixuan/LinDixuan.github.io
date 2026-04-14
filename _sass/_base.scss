@@ -880,6 +880,49 @@ footer.sticky-bottom {
       border-color: var(--global-highlight-color);
     }
   }
+
+  .profile-social {
+    margin-top: 0.75rem;
+
+    .contact-icons {
+      font-size: 2rem;
+      line-height: 1;
+
+      a {
+        margin-right: 0.4rem;
+
+        img {
+          width: 1.6rem;
+          height: 1.6rem;
+          margin-bottom: 0;
+        }
+
+        svg {
+          width: 1.8rem;
+          height: 1.8rem;
+          margin-bottom: 0;
+
+          image {
+            width: 1.8rem;
+            height: 1.8rem;
+          }
+        }
+
+        i::before {
+          color: var(--global-text-color);
+          transition-property: all 0.2s ease-in-out;
+        }
+
+        &:hover {
+          text-decoration: none;
+
+          i::before {
+            color: var(--global-theme-color);
+          }
+        }
+      }
+    }
+  }
 }
 
 .selected-publications {
