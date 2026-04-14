@@ -2,7 +2,7 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col {% if page.selected_papers %}col-sm-4 col-lg-4{% else %}col-sm-2{% endif %} abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -30,11 +30,16 @@
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% if page.selected_papers %}
+            {% assign preview_sizes = '400px' %}
+          {% else %}
+            {% assign preview_sizes = '200px' %}
+          {% endif %}
           {%
             include figure.liquid
             loading="eager"
             path=entry_path
-            sizes = "200px"
+            sizes=preview_sizes
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
@@ -46,7 +51,10 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div
+    id="{{ entry.key }}"
+    class="{% if site.enable_publication_thumbnails %}{% if page.selected_papers %}col-sm-8 col-lg-8{% else %}col-sm-8{% endif %}{% else %}col-sm-10{% endif %}"
+  >
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
